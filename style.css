@@ -1,0 +1,33 @@
+body{
+    background: #eef0f3;
+    font-size: 20px;
+}
+.img{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+figure{
+    overflow: hidden;
+    margin: 10px;
+}
+h3{
+    margin-top: 40px;
+}
+p{
+    padding: 0 10px;
+}
+.img img{
+    display: block;
+    width: 700px;
+    height: 400px;
+    cursor: pointer;
+}
+.img .yaqinlashtirish figure img{
+    transform: scalX(1);
+    transition: 0.3s ease-in-out;
+}
+.img .yaqinlashtirish figure:hover img{
+    transform: scale(1.5);
+}
